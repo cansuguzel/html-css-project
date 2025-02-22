@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="1 saatte html öğren">
+    <title>Cansu'nun sayfası</title>
+</head>
+<body style="background-color:rgb(161, 97, 199);">
+    <img src="logo_pati.png" width="100px" height="100px" alt="kedi logosu" title="kedi">
+    <a href="https://www.youtube.com"
+    target="_blank"
+    title="youtube a gider"
+    >Youtube</a>
+    <hr>
+    <p>bu <b>normal</b> bir yazı</p>
+    <h3>sırasız liste</h3>
+    <ul>
+        <li>un</li>
+        <li>süt</li>
+        <li>yağ</li>
+        <ul>
+            <li>zeytinyağı</li>
+        </ul>
+    </ul>
+    <h3>sıralı liste</h3>
+    <ol>
+        <li>suyu kaynatalım</li>
+        <li>çay otu atalım</li>
+        <li>demlenmeye bırakalım</li>
+    </ol>
+    <h3 style="color: #ebde34;">açıklama listesi</h3>
+    <dl>
+        <dt>html</dt>
+        <dd>biçimlendirme dili</dd>
+    </dl>
+    <table bgcolor="white">
+        <tr bgcolor="purple" witdh="240">
+            <th witdh="80">item1</th>
+            <th witdh="80">item2</th>
+            <th witdh="80">item3</th>
+        </tr>
+        <tr bgcolor="lightpink">
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>12-18</td>
+        </tr>
+    </table>
+    <p style="background-color: aliceblue; color: blue;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    </p>
+    <div style="background-color: rgb(15, 169, 61);">bu bir div</div>
+    <span style="background-color: #ebde34;">bu bir span</span>
+    <br>
+    <iframe src="https://tr.wikipedia.org/" frameborder="1" width="200px" height="100px" ></iframe>
+    <a href="https://www.google.com">
+    <button onclick="tikla()" style="background-color: aqua; color: aliceblue; border-radius: 10px;"> Tıkla </button>
+     </a>
+     <p id="yazi">butona bas</p>
+     <script>
+        function tikla(){
+           document.getElementById("yazi").innerHTML = "tıkladın";
+        }
+     </script>
+     <form action="">
+        <label for="isim">Ad:</label>
+        <input type="text" name="isim" id="isim" placeholder="adınızı girin">
+        <br><br>
+        <input type="email" name="email" id="email" placeholder="email adresinizi girin">
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <select name="" id="">
+            <option value="ssk">ssk</option>
+            <option value="bağkur">bağkur</option>
+            <option value="emekli">emekli</option>
+        </select>
+     </form>
+    
+</body>
+</html>
