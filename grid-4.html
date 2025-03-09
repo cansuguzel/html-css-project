@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 15px;
+        }
+        .container {
+            display: grid;
+            height: 100vh; 
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 10px;
+            padding: 20px;
+            background-color: rgb(112, 52, 168);
+            /*justify-items: start;*/
+            align-items: end;
+            /*justify-content: end;*/
+            /*justify yatay hizalama,align dikey hizalama*/
+
+            /* tek bir hücre içersini hizalama
+            .item:first-child{
+                justify-self: center;
+                align-self: center;
+            }
+            */
+        }
+        .item {
+            background-color: rgb(32, 14, 163);
+            padding: 20px;
+            font-size: 15px;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+    </div>
+</body>
+</html>
